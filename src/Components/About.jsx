@@ -41,6 +41,7 @@ const About = () => {
                     </p>
                 </div>
             </div>
+
             <div className="max-w-screen-xl sm:mx-auto">
                 <div className="grid grid-cols-1 gap-16 row-gap-8 lg:grid-cols-2">
                     <div className="space-y-8">
@@ -58,6 +59,7 @@ const About = () => {
                                 it’s actually our duty to future generations.
                             </p>
                         </div>
+
                         <div>
                             <p className="mb-4 text-xl font-medium">
                                 The first mate and his Skipper too will do?
@@ -75,6 +77,7 @@ const About = () => {
                                 in one of the ones that became nothing.
                             </p>
                         </div>
+
                         <div>
                             <p className="mb-4 text-xl font-medium">
                                 Is the Space Pope reptilian!?
@@ -86,6 +89,7 @@ const About = () => {
                             </p>
                         </div>
                     </div>
+
                     <div className="space-y-8">
                         <div>
                             <p className="mb-4 text-xl font-medium">
@@ -104,6 +108,7 @@ const About = () => {
                                 comes Speed Racer. He's a demon on wheels.
                             </p>
                         </div>
+
                         <div>
                             <p className="mb-4 text-xl font-medium">
                                 Galaxies Orion's sword globular star cluster?
@@ -118,6 +123,7 @@ const About = () => {
                                 you in.
                             </p>
                         </div>
+                        
                         <div>
                             <p className="mb-4 text-xl font-medium">
                                 When has justice ever been as simple as a rule
