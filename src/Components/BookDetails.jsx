@@ -1,9 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import { useLoaderData } from "react-router-dom";
 
 const BookDetails = () => {
-    const book = useLoaderData();
-    console.log(book);
+    
+    const bookData = useLoaderData();
+    const [fold, setFold] = useState(true);
+    console.log(bookData);
+    const { image, title, desc, authors, publisher, year, rating, url, price } = bookData;
+
     return (
         <div>
             <div className="my-container">
@@ -36,7 +40,7 @@ const BookDetails = () => {
                                 <p className= " text-gray-500">
                                     {desc.substring(0, 100)}.....
                                 </p>
-                                <span className= "cursor-pointer text-blue-600" onClick={() => setFol(!fold)}>
+                                <span className= "cursor-pointer text-blue-600" onClick={() => setFold(!fold)}>
                                     Read More
                                 </span>
                             </>
